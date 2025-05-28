@@ -12,7 +12,7 @@
 }
 
 body {
-    width: 100dvw;
+    max-width: 100dvw;
     background-color: var(--white1);
     font-family: 'Outfit';
 }
@@ -22,7 +22,7 @@ nav {
     color: var(--white1);
     background-color: var(--green1);
     gap: 1em;
-	width: 100vw;
+	max-width: 100dvw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +37,8 @@ nav > * {
 }
 
 nav a {
-    padding: 1em;
+    padding: 1dvw;
+    margin: 0 .5dvw 0 .5dvw;
     color: var(--white1);
     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -48,9 +49,9 @@ nav a:hover {
 }
 
 nav ul {
-    gap: 2vw;
+	column-gap: 0px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 nav .fa-bars {
