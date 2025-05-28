@@ -41,7 +41,7 @@ nav a {
     margin: 0 .5dvw 0 .5dvw;
     color: var(--white1);
     text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: 0.3s ease, color 0.3s ease;
 }
 
 nav a:hover {
@@ -58,80 +58,6 @@ nav .fa-bars {
     padding: 1em;
     display: none;
     font-size: x-large;
-}
-
-.menu {
-	display: none;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	right: -70vw;
-	top: 0px;
-	position: fixed;
-	height: 100vh;
-	width: 70vw;
-	background-color: var(--green2);
-	color: whitesmoke;
-	transition: ease 1s;
-}
-
-.menu .fa-xmark {
-	position: absolute;
-	top: 4vh;
-	right: 4vh;
-	font-size: 2rem;
-}
-
-.menu ul {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 5vh;
-	font-size: large;
-	list-style-type: none;
-}
-
-.menu ul > * {
-    border-radius: .7em;
-    padding: 1.5vh;
-	width: 100%;
-
-    text-align: center;
-	color: var(--white1);
-    text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.menu ul > *:hover {
-    background-color: hsl(from var(--green2) h s calc(l - 5));
-}
-
-@media (max-width: 900px) {
-    nav ul {
-        display: none;
-    }
-
-    nav .fa-bars {
-        display: block;
-    }
-
-	.menu {
-		display: flex;
-	}
-}
-
-header {
-    background-image: url('https://img.7segundos.com.br/vQvQ6S7cQX_phGyrEVzWYwTC4UI=/1200x630/smart/s3.7segundos.com.br/uploads/imagens/ifal-2.jpg');
-    background-size: cover;
-    min-height: 40vh;
-}
-
-header h1 {
-    padding: 8vw;
-    color: var(--white1);
-    font-weight: bolder;
-    font-size: 3rem;
 }
 
 main {
