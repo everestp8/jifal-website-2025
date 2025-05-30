@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modalidades.html">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+        type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Modalidades Esportivas</title>
+</head>
+
+<title>JIFAL - 2025</title>
+
+<body>
+    <nav>
+        <h2>JIFAL 2025</h2>
+        <ul>
+            <a href="#">Programação</a>
+            <a href="#">Modalidades Esportivas</a>
+            <a href="#">Equipes Participantes</a>
+            <a href="#">Galeria de fotos</a>
+            <a href="#">Histórico dos jogos internos</a>
+        </ul>
+        <i id="open-menu-btn" class="fa-solid fa-bars"></i>
+    </nav>
+    <div class="menu">
+        <i id="close-menu-btn" class="fa-solid fa-xmark"></i>
+        <ul>
+            <a href="#">Programação</a>
+            <a href="#">Modalidades Esportivas</a>
+            <a href="#">Equipes Participantes</a>
+            <a href="#">Galeria de fotos</a>
+            <a href="#">Histórico dos jogos internos</a>
+        </ul>
+    </div>
+    <header>
+        <h1><span>Modalidades esportivas do evento</span></h1>
+    </header>
+    <main>
+        <div class="container-modalidades">
+            <div class="">
+                <li>
+                    <ul>Futal</ul>
+                </li>
+                <li>
+                    <ul>Basquete</ul>
+                </li>
+                <li>
+                    <ul>Handebol</ul>
+                </li>
+                <li>
+                    <ul>Vôlei</ul>
+                </li>
+                <li>
+                    <ul>Xandrez</ul>
+                </li>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="f-item f-row">
+            <img src="images/ifal_logo.png" alt="Logo IFAL">
+            <p>Instituto Federal de Educação, Ciência e Tecnologia de Alagoas - Campus Arapiraca </p>
+        </div>
+        <div class="f-item">
+            <p>Desenvolvido por: </p>
+            <b>Bárbara Gleyce</b>
+            <b>Charles Evaristo</b>
+            <b>Erick Davi</b>
+            <b>João Vitor</b>
+            <b>Joelson Correia</b>
+        </div>
+        <div class="f-item">
+            <div class="icons">
+                <a href="https://instagram.com/923.ifal"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/everestp8/jifal-website-2025"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>Copyright © 2025 All Rights Reserved</p>
+        </div>
+    </footer>
+    <script>
+        let menu = document.querySelectorAll('.menu')[0];
+        let def = '';
+        let counter = 0;
+
+        const toggleMenu = e => {
+            if (counter == 0)
+                def = menu.style.right;
+            menu.style.right = counter % 2 == 0 ? '0px' : def;
+            counter++;
+        };
+
+        document.querySelector('#open-menu-btn').addEventListener('click', toggleMenu);
+        document.querySelector('#close-menu-btn').addEventListener('click', toggleMenu);
+    </script>
+</body>
+
+</html>
