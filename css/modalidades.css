@@ -64,6 +64,11 @@ header h1 {
     margin: 0;
 }
 
+.card-modalidade a {
+    font-weight: 700;
+    color: #1aaf5d;
+}
+
 @media (max-width: 800px) {
     main {
         padding: 1.5rem 0 3rem 0;
