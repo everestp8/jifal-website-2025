@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/modalidades.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+        type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Modalidades Esportivas</title>
+</head>
+<body>
+    <nav>
+        <h2><a href="index.html">JIFAL 2025</a></h2>
+        <ul>
+            <a href="#">Programação</a>
+            <a href="modalidades.html">Modalidades Esportivas</a>
+            <a href="#">Equipes Participantes</a>
+            <a href="#">Galeria de fotos</a>
+            <a href="#">Histórico dos jogos internos</a>
+        </ul>
+        <i id="open-menu-btn" class="fa-solid fa-bars"></i>
+    </nav>
+    <div class="menu">
+        <i id="close-menu-btn" class="fa-solid fa-xmark"></i>
+        <ul>
+            <a href="#">Programação</a>
+            <a href="modalidades.html">Modalidades Esportivas</a>
+            <a href="#">Equipes Participantes</a>
+            <a href="#">Galeria de fotos</a>
+            <a href="#">Histórico dos jogos internos</a>
+        </ul>
+    </div>
+    <header>
+        <h1><span>Modalidades esportivas do evento</span></h1>
+    </header>
+    <main>
+        <div class="container-modalidades">
+            <div class="card-modalidade">
+                <i class="fa-solid fa-futbol"></i>
+                <h3>Futsal</h3>
+                <p>
+                    Esporte coletivo jogado em quadra, com equipes de cinco jogadores. Foco em habilidade e velocidade.
+                    O futsal exige trabalho em equipe, passes rápidos e movimentação constante. É uma das modalidades mais populares entre jovens e adultos, promovendo integração e espírito esportivo. <a href="https://pt.wikipedia.org/wiki/Futsal">Saiba mais</a>.
+                </p>
+            </div>
+            <div class="card-modalidade">
+                <i class="fa-solid fa-basketball"></i>
+                <h3>Basquete</h3>
+                <p>
+                    Disputa entre duas equipes para marcar pontos arremessando a bola na cesta adversária.
+                    O basquete desenvolve coordenação motora, agilidade e raciocínio rápido, além de incentivar o respeito às regras e o trabalho coletivo em quadra. <a href="https://pt.wikipedia.org/wiki/Basquetebol">Saiba mais</a>.
+                </p>
+            </div>
+            <div class="card-modalidade">
+                <i class="fa-solid fa-baseball"></i>
+                <h3>Handebol</h3>
+                <p>
+                    Modalidade dinâmica onde equipes tentam marcar gols usando as mãos para lançar a bola.
+                    O handebol é conhecido pela intensidade e velocidade das jogadas, sendo excelente para desenvolver resistência física, cooperação e tomada de decisão sob pressão. <a href="https://pt.wikipedia.org/wiki/Handebol">Saiba mais</a>.
+                </p>
+            </div>
+            <div class="card-modalidade">
+                <i class="fa-solid fa-volleyball"></i>
+                <h3>Vôlei</h3>
+                <p>
+                    Jogo em que equipes se enfrentam separadas por uma rede, buscando fazer a bola tocar o chão adversário.
+                    O vôlei estimula a comunicação, o trabalho em equipe e a coordenação, sendo praticado tanto em ambientes fechados quanto ao ar livre. <a href="https://pt.wikipedia.org/wiki/Voleibol">Saiba mais</a>.
+                </p>
+            </div>
+            <div class="card-modalidade">
+                <i class="fa-solid fa-chess"></i>
+                <h3>Xadrez</h3>
+                <p>
+                    Jogo de estratégia e raciocínio, onde o objetivo é dar xeque-mate ao rei adversário.
+                    O xadrez desenvolve o pensamento lógico, a concentração e a paciência, sendo uma modalidade que valoriza o planejamento e a antecipação de movimentos. <a href="https://pt.wikipedia.org/wiki/Xadrez">Saiba mais</a>.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="f-item f-row">
+            <img src="images/ifal_logo.png" alt="Logo IFAL">
+            <p>Instituto Federal de Educação, Ciência e Tecnologia de Alagoas - Campus Arapiraca </p>
+        </div>
+        <div class="f-item">
+            <p>Desenvolvido por: </p>
+            <b>Bárbara Gleyce</b>
+            <b>Charles Evaristo</b>
+            <b>Erick Davi</b>
+            <b>João Vitor</b>
+            <b>Joelson Correia</b>
+        </div>
+        <div class="f-item">
+            <div class="icons">
+                <a href="https://instagram.com/923.ifal"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/everestp8/jifal-website-2025"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>Copyright © 2025 All Rights Reserved</p>
+        </div>
+    </footer>
+    <script>
+        let menu = document.querySelectorAll('.menu')[0];
+        let def = '';
+        let counter = 0;
+
+        const toggleMenu = e => {
+            if (counter == 0)
+                def = menu.style.right;
+            menu.style.right = counter % 2 == 0 ? '0px' : def;
+            counter++;
+        };
+
+        document.querySelector('#open-menu-btn').addEventListener('click', toggleMenu);
+        document.querySelector('#close-menu-btn').addEventListener('click', toggleMenu);
+    </script>
+</body>
+</html>
