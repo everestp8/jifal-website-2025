@@ -5,6 +5,8 @@ main {
 header h1 {
     margin-top: 2.5rem;
     margin-bottom: 1.5rem;
+	margin-left: 1em;
+	margin-right: 1em;
     font-size: 2.2rem;
     text-align: center;
     font-weight: 800;
@@ -44,7 +46,8 @@ header h1 {
 .card-modalidade i {
     font-size: 2.5rem;
     color: #1aaf5d;
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
+	margin-top: 1rem;
 }
 
 .card-modalidade h3 {
@@ -69,6 +72,10 @@ header h1 {
     color: #1aaf5d;
 }
 
+footer {
+	margin-top: 5em;
+}
+
 @media (max-width: 800px) {
     main {
         padding: 1.5rem 0 3rem 0;
@@ -89,10 +96,7 @@ header h1 {
         max-width: 350px;
         height: auto;
         margin: 0 auto;
-        padding: 1.2rem 1rem;
-    }
-    .card-modalidade i {
-        font-size: 2rem;
+        padding: 1.5rem 2rem;
     }
     .card-modalidade h3 {
         font-size: 1.2rem;
@@ -110,10 +114,7 @@ header h1 {
     }
     .card-modalidade {
         width: 98%;
-        padding: 1rem 0.5rem;
-    }
-    .card-modalidade i {
-        font-size: 1.5rem;
+		margin-top: 2em;
     }
     .card-modalidade h3 {
         font-size: 1rem;
