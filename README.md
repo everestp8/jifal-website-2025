@@ -18,7 +18,7 @@ Criar um site responsivo e visualmente agradável utilizando **HTML5**, **CSS3**
 
 - [x] Página Inicial (Home)
 - [ ] Programação
-- [ ] Modalidades Esportivas
+- [x] Modalidades Esportivas
 - [ ] Equipes Participantes
 - [ ] Galeria de Fotos *(Opcional)*
 - [ ] Página de Contato *(Opcional)*
