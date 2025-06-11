@@ -2,11 +2,22 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
     color: #1f441e;
-    margin: 20px;
+}
+
+nav h2 {
+    color: whitesmoke;
 }
 
 h1, h2, h3 {
     color: #1f441e;
+}
+
+h1 {
+    margin: 1em 0 2em 1em;
+}
+
+section {
+    margin: 0 8vw 0 8vw;
 }
 
 table {
@@ -22,7 +33,7 @@ table {
 
 th, td {
     border: 1px solid #1f441e;
-    padding: 10px;
+    padding: 1vw;
     text-align: center;
     color: #1f441e;
 }
@@ -53,4 +64,13 @@ section[data-ano] {
     border-radius: 12px;
     background-color: #f0f7f0;
     box-shadow: 0 2px 6px rgba(31, 68, 30, 0.1); 
+}
+
+@media(max-width: 900px) {
+    th, td {
+        padding: 2vw;
+    }
+    section {
+        font-size: .7rem;
+    }
 }
