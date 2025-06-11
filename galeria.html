@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modalidades.html">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+        type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Modalidades Esportivas</title>
+</head>
+
+<title>JIFAL - 2025</title>
+
+<body>
+    <nav>
+        <h2>JIFAL 2025</h2>
+        <ul>
+            <a href="#">Programação</a>
+            <a href="#">Modalidades Esportivas</a>
+            <a href="#">Equipes Participantes</a>
+            <a href="#">Galeria de fotos</a>
+            <a href="#">Histórico dos jogos internos</a>
+        </ul>
+        <i id="open-menu-btn" class="fa-solid fa-bars"></i>
+    </nav>
+    <div class="menu">
+        <i id="close-menu-btn" class="fa-solid fa-xmark"></i>
+        <ul>
+            <a href="#">Programação</a>
+            <a href="#">Modalidades Esportivas</a>
+            <a href="#">Equipes Participantes</a>
+            <a href="#">Galeria de fotos</a>
+            <a href="#">Histórico dos jogos internos</a>
+        </ul>
+    </div>
+    <header>
+        <h1><span>Galeria de Fotos JIFAL 2025</span></h1>
+    </header>
+    <main>
+
+        <h3>Time Servidores vs Seleção JIFAL</h3>
+        <img src="images/galeria/6.webp">
+        <h3>Futsal Masculino</h3>
+        <div class="container">
+            <img src="images/galeria/3.webp">
+            <img src="images/galeria/17.webp">
+            <img src="images/galeria/5.webp">
+        </div>
+        <h3>Futsal Feminino</h3>
+        <div class="container">
+            <img src="images/galeria/24.webp">
+            <img src="images/galeria/1.webp">
+            <img src="images/galeria/8.webp">
+        </div>
+        <h3>Handebol Masculino</h3>
+        <div class="container">
+            <img src="images/galeria/28.webp">
+            <img src="images/galeria/27.webp">
+            <img src="images/galeria/2.webp">
+        </div>
+        <h3>Handebol Feminino</h3>
+        <div class="container">
+            <img src="images/galeria/13.webp">
+            <img src="images/galeria/29.webp">
+            <img src="images/galeria/30.webp">
+        </div>
+        <h3>Basquete Masculino</h3>
+        <div class="container">
+            <img src="images/galeria/11.webp">
+            <img src="images/galeria/31.webp">
+            <img src="images/galeria/12.webp">
+        </div>
+        <h3>Basquete Feminino</h3>
+        <div class="container">
+            <img src="images/galeria/10.webp">
+            <img src="images/galeria/25.webp">
+            <img src="images/galeria/23.webp">
+        </div>
+        <h3>Voleibol Masculino</h3>
+        <div class="container">
+            <img src="images/galeria/7.webp">
+            <img src="images/galeria/4.webp">
+            <img src="images/galeria/20.webp">
+        </div>
+        <h3>Voleibol Feminino</h3>
+        <div class="container">
+            <img src="images/galeria/32.webp">
+            <img src="images/galeria/18.webp">
+            <img src="images/galeria/22.webp">
+        </div>
+        <h3>Voleibol Misto</h3>
+        <div class="container">
+            <img src="images/galeria/26.webp">
+            <img src="images/galeria/19.webp">
+            <img src="images/galeria/14.webp">
+        </div>
+        <h3>Xadrez Masculino</h3>
+        <div class="container">
+            <img src="images/galeria/16.webp">
+        </div>
+        <h3>Xadrez Feminino</h3>
+        <div class="container">
+            <img src="images/galeria/15.webp">
+        </div>
+        <h3>Xadrez Categoria NAPNE</h3>
+        <div class="container">
+            <img src="images/galeria/9.webp">
+        </div>
+
+    </main>
+    <footer>
+        <div class="f-item f-row">
+            <img src="images/ifal_logo.png" alt="Logo IFAL">
+            <p>Instituto Federal de Educação, Ciência e Tecnologia de Alagoas - Campus Arapiraca </p>
+        </div>
+        <div class="f-item">
+            <p>Desenvolvido por: </p>
+            <b>Bárbara Gleyce</b>
+            <b>Charles Evaristo</b>
+            <b>Erick Davi</b>
+            <b>João Vitor</b>
+            <b>Joelson Correia</b>
+        </div>
+        <div class="f-item">
+            <div class="icons">
+                <a href="https://instagram.com/923.ifal"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/everestp8/jifal-website-2025"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>Copyright © 2025 All Rights Reserved</p>
+        </div>
+    </footer>
+    <script>
+        let menu = document.querySelectorAll('.menu')[0];
+        let def = '';
+        let counter = 0;
+
+        const toggleMenu = e => {
+            if (counter == 0)
+                def = menu.style.right;
+            menu.style.right = counter % 2 == 0 ? '0px' : def;
+            counter++;
+        };
+
+        document.querySelector('#open-menu-btn').addEventListener('click', toggleMenu);
+        document.querySelector('#close-menu-btn').addEventListener('click', toggleMenu);
+    </script>
+</body>
+</html>
