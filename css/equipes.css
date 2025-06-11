@@ -1,0 +1,220 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap : 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.box411{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap : 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.box411 :hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    width: 100%;
+    color: blueviolet;
+    
+}
+
+.box412{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap : 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.box412 :hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    width: 100%;
+    color: rgb(222, 178, 3);
+}
+
+.box413{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap : 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.box413 :hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    width: 100%;
+    color: rgba(71, 0, 0, 0.934);
+}
+
+.box421{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap : 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.box421 :hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    width: 100%;
+    color: rgba(193, 0, 97, 0.97);
+}
+
+.box422{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap : 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.box422 :hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    width: 100%;
+    color: rgb(1, 67, 60);
+}
+
+.box423 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap: 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.box423 :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    width: 100%;
+    color:gray
+}
+
+.box911 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap: 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.box911 :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    width: 100%;
+    color: rgb(0, 59, 111);
+}
+
+.box912 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap: 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.box912 :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    width: 100%;
+    color: rgb(124, 10, 0);
+}
+
+.box913 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap: 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.box913 :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    width: 100%;
+    color: rgb(0, 114, 95);
+}
+
+.box921 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap: 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.box921 :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    width: 100%;
+    color: rgb(226, 144, 43);
+}
+
+.box922 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap: 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.box922 :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    width: 100%;
+    color: rgb(0, 205, 232);
+}
+
+.box923 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap: 30px;
+    height: 370px;
+    width: auto;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.box923 :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    width: 100%;
+    color: burlywood
+}
+
