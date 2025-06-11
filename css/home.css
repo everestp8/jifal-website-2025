@@ -55,7 +55,6 @@ header h1 span {
 }
 
 .cards .card {
-    cursor: pointer;
     background: white;
     border-radius: 16px;
     width: 40vw;
@@ -73,7 +72,7 @@ header h1 span {
 
 @media (max-width: 900px) {
     .card {
-        min-width: 40vw;
-        width: 85vw;
+        min-height: 10vh;
+        min-width: 85vw;
     }
 }
