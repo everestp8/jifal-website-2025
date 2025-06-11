@@ -17,12 +17,12 @@ Criar um site responsivo e visualmente agradável utilizando **HTML5**, **CSS3**
 ## ✅ Progresso do Projeto
 
 - [x] Página Inicial (Home)
-- [ ] Programação
+- [x] Programação
 - [x] Modalidades Esportivas
-- [ ] Equipes Participantes
-- [ ] Galeria de Fotos *(Opcional)*
-- [ ] Página de Contato *(Opcional)*
-- [ ] Histórico dos Jogos Internos
+- [x] Equipes Participantes
+- [x] Galeria de Fotos *(Opcional)*
+- [x] Página de Contato *(Opcional)*
+- [x] Histórico dos Jogos Internos
 
 ## 🗂️ Estrutura do Site
 
