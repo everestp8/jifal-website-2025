@@ -1,3 +1,24 @@
+header h1 {
+    padding: 1em;
+}
+
+header h2, header p {
+    padding: 0.5em 0 0.5em 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+}
+
 .box{
     display: flex;
     flex-direction: row;
@@ -19,12 +40,14 @@
     justify-content: space-between;
 }
 
-.box411 :hover{
-    transform: scale(1.05);
+.box411 p:hover {
     transition: transform 0.3s ease;
     width: 100%;
     color: blueviolet;
-    
+}
+
+.box411 .box:hover{
+    transform: scale(1.05);
 }
 
 .box412{
