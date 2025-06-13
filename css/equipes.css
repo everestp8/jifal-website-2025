@@ -1,3 +1,24 @@
+header h1 {
+    padding: 1em;
+}
+
+header h2, header p {
+    padding: 0.5em 0 0.5em 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+}
+
 .box{
     display: flex;
     flex-direction: row;
@@ -7,6 +28,8 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
+    
 }
 .box411{
     display: flex;
@@ -17,14 +40,17 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
-.box411 :hover{
-    transform: scale(1.05);
+.box411 p:hover {
     transition: transform 0.3s ease;
     width: 100%;
     color: blueviolet;
-    
+}
+
+.box411 .box:hover{
+    transform: scale(1.05);
 }
 
 .box412{
@@ -36,13 +62,17 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
-.box412 :hover{
-    transform: scale(1.05);
+.box412 p:hover {
     transition: transform 0.3s ease;
     width: 100%;
     color: rgb(222, 178, 3);
+
+}
+.box412 .box:hover{
+    transform: scale(1.05); 
 }
 
 .box413{
@@ -54,14 +84,18 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
-.box413 :hover{
-    transform: scale(1.05);
+.box413 p:hover{
     transition: transform 0.3s ease;
     width: 100%;
-    color: rgba(71, 0, 0, 0.934);
+    color: rgb(222, 178, 3);
 }
+.box413 .box:hover{
+    transform: scale(1.05);
+}
+
 
 .box421{
     display: flex;
@@ -72,13 +106,17 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
-.box421 :hover{
-    transform: scale(1.05);
+.box421 p:hover{
     transition: transform 0.3s ease;
     width: 100%;
     color: rgba(193, 0, 97, 0.97);
+}
+
+.box421 .box:hover{
+    transform: scale(1.05);  
 }
 
 .box422{
@@ -90,13 +128,16 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-
-.box422 :hover{
-    transform: scale(1.05);
+.box422 p:hover{
     transition: transform 0.3s ease;
     width: 100%;
     color: rgb(1, 67, 60);
+}
+.box422 .box:hover{
+    transform: scale(1.05);
+    
 }
 
 .box423 {
@@ -108,12 +149,15 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-.box423 :hover {
-    transform: scale(1.05);
+.box423 p:hover {
     transition: transform 0.3s ease;
     width: 100%;
     color:gray
+}
+.box423 .box:hover {
+    transform: scale(1.05); 
 }
 
 .box911 {
@@ -125,12 +169,18 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-.box911 :hover {
-    transform: scale(1.05);
+
+.box911 p:hover{
     transition: transform 0.3s ease;
     width: 100%;
     color: rgb(0, 59, 111);
+}
+
+.box911 .box:hover {
+    transform: scale(1.05);
+    
 }
 
 .box912 {
@@ -142,12 +192,17 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-.box912 :hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
+
+.box912 p:hover {
+   transition: transform 0.3s ease;
     width: 100%;
     color: rgb(124, 10, 0);
+}
+
+.box912 .box:hover {
+    transform: scale(1.05);
 }
 
 .box913 {
@@ -159,12 +214,17 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-.box913 :hover {
-    transform: scale(1.05);
+
+.box913 p:hover {
     transition: transform 0.3s ease;
     width: 100%;
-    color: rgb(0, 114, 95);
+    color: rgb(0, 114, 95);;
+}
+
+.box913 :hover {
+    transform: scale(1.05);
 }
 
 .box921 {
@@ -176,12 +236,16 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-.box921 :hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
+
+.box921 p:hover {
+     transition: transform 0.3s ease;
     width: 100%;
-    color: rgb(226, 144, 43);
+    color: rgb(220, 135, 32);
+}
+.box921 .box:hover {
+    transform: scale(1.05);
 }
 
 .box922 {
@@ -193,14 +257,17 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-.box922 :hover {
-    transform: scale(1.05);
+
+.box922 p:hover {
     transition: transform 0.3s ease;
     width: 100%;
     color: rgb(0, 205, 232);
 }
-
+.box922 .box:hover {
+    transform: scale(1.05);
+}
 .box923 {
     display: flex;
     flex-direction: row;
@@ -210,11 +277,15 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-.box923 :hover {
-    transform: scale(1.05);
+.box923 p:hover {
     transition: transform 0.3s ease;
     width: 100%;
-    color: burlywood
+    color: burlywood;
+}
+
+.box923 .box:hover {
+    transform: scale(1.05);
 }
 
