@@ -1,12 +1,63 @@
+header {
+    padding: 4vw;
+}
+
+header h1 {
+    padding: 1em 0 1em 0;
+}
+
+header h2, header p {
+    padding: 0.5vw 0 0.5vw 0;
+    max-width: 60vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    white-space: wrap;
+}
+
+.equipe .instagram-media {
+    height: 40vh;
+}
+
+.equipe img {
+    height: 18vw;
+    width:  18vw;
+
+    border-radius: 16px;
+}
+
 .box{
     display: flex;
     flex-direction: row;
     margin: 50px;
     gap : 30px;
-    height: 370px;
+    height: 16vw;
+    width: 16vw;
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
+    
 }
 .box411{
     display: flex;
@@ -17,17 +68,19 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
-.box411 :hover{
-    transform: scale(1.05);
+.box411 p:hover {
     transition: transform 0.3s ease;
-    width: 100%;
     color: blueviolet;
-    
 }
 
-.box412{
+.box411 .box:hover{
+    transform: scale(1.05);
+}
+
+.box412 {
     display: flex;
     flex-direction: row;
     margin: 50px;
@@ -36,13 +89,16 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
-.box412 :hover{
-    transform: scale(1.05);
+.box412 p:hover {
     transition: transform 0.3s ease;
-    width: 100%;
     color: rgb(222, 178, 3);
+
+}
+.box412 .box:hover{
+    transform: scale(1.05); 
 }
 
 .box413{
@@ -54,14 +110,17 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
-.box413 :hover{
-    transform: scale(1.05);
+.box413 p:hover{
     transition: transform 0.3s ease;
-    width: 100%;
-    color: rgba(71, 0, 0, 0.934);
+    color: rgb(222, 178, 3);
 }
+.box413 .box:hover{
+    transform: scale(1.05);
+}
+
 
 .box421{
     display: flex;
@@ -72,13 +131,16 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
-.box421 :hover{
-    transform: scale(1.05);
+.box421 p:hover{
     transition: transform 0.3s ease;
-    width: 100%;
     color: rgba(193, 0, 97, 0.97);
+}
+
+.box421 .box:hover{
+    transform: scale(1.05);  
 }
 
 .box422{
@@ -90,13 +152,15 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-
-.box422 :hover{
-    transform: scale(1.05);
+.box422 p:hover{
     transition: transform 0.3s ease;
-    width: 100%;
     color: rgb(1, 67, 60);
+}
+.box422 .box:hover{
+    transform: scale(1.05);
+    
 }
 
 .box423 {
@@ -108,12 +172,14 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-.box423 :hover {
-    transform: scale(1.05);
+.box423 p:hover {
     transition: transform 0.3s ease;
-    width: 100%;
     color:gray
+}
+.box423 .box:hover {
+    transform: scale(1.05); 
 }
 
 .box911 {
@@ -125,12 +191,17 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-.box911 :hover {
-    transform: scale(1.05);
+
+.box911 p:hover{
     transition: transform 0.3s ease;
-    width: 100%;
     color: rgb(0, 59, 111);
+}
+
+.box911 .box:hover {
+    transform: scale(1.05);
+    
 }
 
 .box912 {
@@ -142,12 +213,16 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-.box912 :hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-    width: 100%;
+
+.box912 p:hover {
+   transition: transform 0.3s ease;
     color: rgb(124, 10, 0);
+}
+
+.box912 .box:hover {
+    transform: scale(1.05);
 }
 
 .box913 {
@@ -159,12 +234,16 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
+
+.box913 p:hover {
+    transition: transform 0.3s ease;
+    color: rgb(0, 114, 95);
+}
+
 .box913 :hover {
     transform: scale(1.05);
-    transition: transform 0.3s ease;
-    width: 100%;
-    color: rgb(0, 114, 95);
 }
 
 .box921 {
@@ -176,12 +255,15 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-.box921 :hover {
+
+.box921 p:hover {
+     transition: transform 0.3s ease;
+    color: rgb(220, 135, 32);
+}
+.box921 .box:hover {
     transform: scale(1.05);
-    transition: transform 0.3s ease;
-    width: 100%;
-    color: rgb(226, 144, 43);
 }
 
 .box922 {
@@ -193,14 +275,16 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
-}
-.box922 :hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-    width: 100%;
-    color: rgb(0, 205, 232);
+    white-space: nowrap;
 }
 
+.box922 p:hover {
+    transition: transform 0.3s ease;
+    color: rgb(0, 205, 232);
+}
+.box922 .box:hover {
+    transform: scale(1.05);
+}
 .box923 {
     display: flex;
     flex-direction: row;
@@ -210,11 +294,52 @@
     width: auto;
     border-radius: 16px;
     justify-content: space-between;
+    white-space: nowrap;
 }
-.box923 :hover {
-    transform: scale(1.05);
+.box923 p:hover {
     transition: transform 0.3s ease;
-    width: 100%;
-    color: burlywood
+    color: burlywood;
 }
 
+.box923 .box:hover {
+    transform: scale(1.05);
+}
+
+.equipe * {   
+    min-width: 16vw;
+}
+
+.equipe *:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.equipe p:hover {
+    transition: color 0.3s ease;
+}
+
+@media (max-width: 900px) {
+    header p {
+        max-width: 100vw;
+    }
+
+    .container {
+        width: 80vw;
+        gap: 25vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    .equipe * {
+        white-space: wrap;
+    }
+
+    .equipe img {
+        width: 64vw;
+        height: 64vw;
+    }
+
+    footer {
+       margin-top: 40vh;
+    }
+}
